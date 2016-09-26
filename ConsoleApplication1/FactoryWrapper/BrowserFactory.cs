@@ -57,6 +57,7 @@ namespace S3Group.Google.FactoryWrapper
             }
         }
 
+
         public static void LoadApplication(string url)
         {
             Driver.Url = url;
