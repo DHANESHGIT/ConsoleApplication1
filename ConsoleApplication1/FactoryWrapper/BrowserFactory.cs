@@ -12,6 +12,7 @@ namespace S3Group.Google.FactoryWrapper
     {
         private static readonly IDictionary<string, IWebDriver> Drivers = new Dictionary<string, IWebDriver>();
         private static IWebDriver driver;
+        private static IWebDriver driver2;
 
         public static IWebDriver Driver
         {
